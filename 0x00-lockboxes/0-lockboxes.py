@@ -2,6 +2,7 @@
 
 
 def canUnlockAll(boxes):
+    """comment"""
     keys = [0]
     last = 0
 

@@ -77,7 +77,7 @@ void print_gridd(int grid[3][3])
  * tumble - tumbles a sandpile grid
  * @grid: grid to tumble
  */
- 
+
 void tumble(int grid[3][3])
 {
 	int array[9][2];

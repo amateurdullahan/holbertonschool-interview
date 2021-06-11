@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * check_cycle - finds a loop in a listint_t list
+ * check_cycle - finds a loop in list
  * @list: list to be checked
  *
- * Return: 1 if there is a cycle, 0 otherwise
+ * Return: 1 if true, else 0
  */
 int check_cycle(listint_t *list)
 {

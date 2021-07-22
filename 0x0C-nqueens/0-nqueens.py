@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-    """solves the N queens problem"""
+"""solves the N queens problem"""
 import sys
 
 argv = sys.argv

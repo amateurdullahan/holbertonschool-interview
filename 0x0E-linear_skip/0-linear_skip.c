@@ -14,7 +14,7 @@ skiplist_t *linear_skip(skiplist_t *list, int value)
 		if (har == NULL)
 			break;
 		printf("Value checked at index [%d] = [%d]\n", (int)har->index, har->n);
-		tor = hare;
+		tor = har;
 	    har = har->express;
 	}
 	if (har != NULL)

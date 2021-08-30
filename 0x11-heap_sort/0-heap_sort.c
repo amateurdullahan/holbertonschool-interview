@@ -18,11 +18,11 @@ void heap_sort(int *array, size_t size)
 		return;
     }
     if (size < 2)
-	{
-    	return;
+    {
+        return;
     }
     if (size == 2)
-	{
+    {
 		if (array[0] >= array[1])
 		{
 			tmp = array[0];
@@ -64,10 +64,10 @@ void heapify(int *arr, size_t size, size_t root)
     }
     if (right < arr_size && arr[right] > arr[parent])
 	{
-    	parent = right;
+        parent = right;
     }
     if (parent != (int)root)
-	{
+    {
 		swap(arr, &arr[root], &arr[parent]);
 		heapify(arr, size, parent);
 	}

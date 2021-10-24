@@ -5,7 +5,7 @@ import sys
 argv = sys.argv
 argc = len(argv)
 
-"""checks for correct input"""
+"""checks correct input"""
 if argc != 2:
     print("Usage: nqueens N")
     sys.exit(1)

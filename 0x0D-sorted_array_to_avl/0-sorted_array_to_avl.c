@@ -1,5 +1,12 @@
 #include "binary_trees.h"
 
+/**
+  * sorted_array_to_avl - sort
+  * @array: array
+  * @size: size
+  *
+  * Return:
+  */
 
 avl_t *sorted_array_to_avl(int *array, size_t size)
 {
@@ -20,6 +27,16 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
 
 	return (tree);
 }
+
+/**
+  * branch - twig
+  * @array: array
+  * @start: start
+  * @end: end
+  * @tree: tree
+  *
+  * Return:
+  */
 
 avl_t *branch(int *array, int start, int end, avl_t *tree)
 {

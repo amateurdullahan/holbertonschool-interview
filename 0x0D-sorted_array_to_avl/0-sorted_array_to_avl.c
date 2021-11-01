@@ -5,7 +5,7 @@
   * @array: array
   * @size: size
   *
-  * Return:
+  * Return: value
   */
 
 avl_t *sorted_array_to_avl(int *array, size_t size)
@@ -35,7 +35,7 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
   * @end: end
   * @tree: tree
   *
-  * Return:
+  * Return: value
   */
 
 avl_t *branch(int *array, int start, int end, avl_t *tree)

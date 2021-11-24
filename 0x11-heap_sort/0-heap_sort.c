@@ -4,7 +4,7 @@
 /**
   * heap_sort - heap sorts, sift-down
   * @array: the array
-  * @size: the size of array
+  * @size: the size of array!
   */
 
 void heap_sort(int *array, size_t size)

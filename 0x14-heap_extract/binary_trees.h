@@ -28,4 +28,4 @@ void heapify(heap_t *node);
 int find_height(heap_t *node, int height);
 heap_t *get_top(heap_t *node, int height, int node_height);
 
-#endif /* _BINARY_TREES_H_ *
+#endif /* _BINARY_TREES_H_ */
